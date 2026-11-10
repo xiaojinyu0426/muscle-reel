@@ -40,6 +40,7 @@ Open Claude Code in an empty folder and say:
 - `muscle-reel/scripts/assemble.py` — cuts the clips, overlays the picker, ducks the music under the voice, exports 1080x1920 mp4
 - `muscle-reel/examples/reel.json` — the demo config, copy and edit it
 
-## Note on binary assets
+## Assets included
 
-The two style reference images (`assets/style_ref_full.png`, `assets/style_ref_close.png`) and the Archivo font (`assets/fonts/Archivo.ttf`, OFL licensed) from the original download are not included in this repo — grab them from the [original resource page](https://ernesto-x-resources.vercel.app/r/muscle-skill) if you need them.
+- `muscle-reel/assets/style_ref_full.png` and `style_ref_close.png` — the two style reference stills that keep every shot in the same look
+- `muscle-reel/assets/fonts/Archivo.ttf` — the label font, free under the OFL license
