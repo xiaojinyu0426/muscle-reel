@@ -1,0 +1,22 @@
+{
+  "fps": 30,
+  "app": { "name": "REPS", "logo_lines": ["REPS"], "tile_color": "#1C1C1E", "italic": true },
+  "intro_seconds": 4.6,
+  "label_delay": 1.3,
+  "end_card_seconds": 3.0,
+  "sections": [
+    { "name": "Biceps",    "color": "#35FF5C", "thumb": "thumbs/biceps.png",    "vo": "vo/l1.mp3", "clips": [{ "file": "clips/c0.mp4", "dur": 4.0 }, { "file": "clips/c1.mp4", "dur": 6.5 }] },
+    { "name": "Triceps",   "color": "#2CF0D0", "thumb": "thumbs/triceps.png",   "vo": "vo/l2.mp3", "clips": [{ "file": "clips/c2.mp4", "dur": 4.0 }, { "file": "clips/c3.mp4", "dur": 6.5 }] },
+    { "name": "Shoulders", "color": "#B04DFF", "thumb": "thumbs/shoulders.png", "vo": "vo/l3.mp3", "clips": [{ "file": "clips/c4.mp4", "dur": 5.5 }, { "file": "clips/c5.mp4", "dur": 5.0 }] },
+    { "name": "Chest",     "color": "#FF9A1F", "thumb": "thumbs/chest.png",     "vo": "vo/l4.mp3", "clips": [{ "file": "clips/c6.mp4", "dur": 5.0 }, { "file": "clips/c7.mp4", "dur": 5.5 }] },
+    { "name": "Lats",      "color": "#FFD21F", "thumb": "thumbs/lats.png",      "vo": "vo/l5.mp3", "clips": [{ "file": "clips/c8.mp4", "dur": 5.5 }, { "file": "clips/c9.mp4", "dur": 4.5 }] }
+  ],
+  "audio": {
+    "intro": "vo/l0.mp3",
+    "outro": "vo/l6.mp3",
+    "tagline": "vo/l7.mp3",
+    "music": "vo/music.mp3",
+    "music_volume": 0.32
+  },
+  "out": "out/reps-muscle-reel.mp4"
+}
